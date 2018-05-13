@@ -50,6 +50,7 @@ class TinyMCERTEOnRichTextEditorInit extends TinyMCERTEPlugin {
             'toolbar1' => $this->tinymcerte->getOption('toolbar1', array(), 'undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image'),
             'toolbar2' => $this->tinymcerte->getOption('toolbar2', array(), ''),
             'toolbar3' => $this->tinymcerte->getOption('toolbar3', array(), ''),
+            'toolbar4' => $this->tinymcerte->getOption('toolbar4', array(), ''),
             'modxlinkSearch' => $this->tinymcerte->getOption('jsUrl').'vendor/tinymce/plugins/modxlink/search.php',
             'language' => $language,
             'directionality' => $this->modx->getOption('manager_direction', array(), 'ltr'),
